@@ -4,6 +4,12 @@ class Owner
 
   @@all = []
 
+  class Owner
+  # code goes here	  # code goes here
+  attr_reader :name, :species
+
+  @@all = []
+
   def initialize(name)
     @name = name
     @species = 'human'
@@ -69,5 +75,4 @@ class Owner
   def list_pets
     "I have #{self.dogs.length} dog(s), and #{self.cats.length} cat(s)."
   end
- end 	
 end
