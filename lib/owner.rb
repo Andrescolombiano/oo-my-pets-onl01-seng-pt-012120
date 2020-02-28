@@ -1,9 +1,3 @@
-class Owner
-  # code goes here	  # code goes here
-  attr_reader :name, :species
-
-  @@all = []
-
   class Owner
   # code goes here	  # code goes here
   attr_reader :name, :species
